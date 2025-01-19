@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn/101/card_learn.dart';
+import 'package:flutter_learn/101/stateless_learn.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -11,8 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: MyApp(),
-      theme: ThemeData(),
+      home: CardLearn(),
+      theme: ThemeData.dark(),
     );
   }
 }
