@@ -19,6 +19,7 @@ class _ColorChangeStateState extends State<ColorChangeState> {
     _backroundColor = widget.initialColor;
   }
 
+//test
   void changeBackroundColor(Color color) {
     setState(() {
       _backroundColor = color;
