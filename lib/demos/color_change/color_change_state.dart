@@ -14,7 +14,6 @@ class _ColorChangeStateState extends State<ColorChangeState> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _backroundColor = widget.initialColor;
   }
